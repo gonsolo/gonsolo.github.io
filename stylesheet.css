@@ -1,3 +1,21 @@
+:root {
+        --gonzo-gray: rgb(40 40 40)
+}
+
+body {
+        background-color: var(--gonzo-gray);
+        color: gray;
+}
+
+a {
+        color: gray;
+        text-decoration: none;
+}
+
+audio::-webkit-media-controls-panel {
+        background-color: var(--gonzo-gray);
+}
+
 #centered {
 	font-family:	"Arial";
 	font-weight:	bold;
